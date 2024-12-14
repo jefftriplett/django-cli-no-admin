@@ -24,7 +24,6 @@ classifiers = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13"
 ]
-license = "BSD-3-Clause"
 readme = { file = "README.md", content-type="text/markdown"}
 
 [project.scripts]
