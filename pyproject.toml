@@ -31,5 +31,7 @@ readme = { file = "README.md", content-type="text/markdown"}
 django = "django.core.management:execute_from_command_line"
 
 [project.urls]
+Changelog = "https://github.com/jefftriplett/django-cli-no-admin/releases"
 Documentation = "https://github.com/jefftriplett/django-cli-no-admin"
+"Fiscal support" = "https://github.com/sponsors/jefftriplett/"
 Source = "https://github.com/jefftriplett/django-cli-no-admin"
