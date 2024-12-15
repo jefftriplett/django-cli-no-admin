@@ -2,7 +2,7 @@
 
 > Use the Django CLI using "django" without typing "django-admin".
 
-django-cli-no-admin is a lightweight tool that simplifies working with Django projects. With this package, you can use the `django` command instead of `django-admin` to execute management commands in your Django project.
+django-cli-no-admin is a config-only project that creates a `django` command and nothing more. With this package, you can use the `django` command instead of `django-admin` to execute management commands in your Django project.
 
 See the blog post: https://micro.webology.dev/2024/12/14/new-project-to.html 
 
