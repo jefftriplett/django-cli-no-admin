@@ -1,6 +1,6 @@
 [project]
 name = "django-cli-no-admin"
-version = "2024.12.1"
+version = "2024.12.2"
 description = 'Use the Django CLI using "django" without typing "django-admin"'
 authors = [
     { name = "Jeff Triplett", email = "jeff.triplett@gmail.com" }
