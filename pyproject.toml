@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "django-cli-no-admin"
-version = "2026.8.2"
+version = "2026.8.3"
 description = 'Use the Django CLI using "django" without typing "django-admin"'
 authors = [
     { name = "Jeff Triplett", email = "jeff.triplett@gmail.com" }
@@ -44,7 +44,7 @@ Homepage = "https://jefftriplett.com"
 Source = "https://github.com/jefftriplett/django-cli-no-admin"
 
 [tool.bumpver]
-current_version = "2026.8.2"
+current_version = "2026.8.3"
 version_pattern = "YYYY.MM.INC1"
 commit_message = ":gem: Bump version to {new_version}"
 commit = false  # handled by justfile
