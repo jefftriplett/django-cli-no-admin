@@ -45,3 +45,17 @@ Documentation = "https://github.com/jefftriplett/django-cli-no-admin"
 "Fiscal support" = "https://github.com/sponsors/jefftriplett/"
 Homepage = "https://jefftriplett.com"
 Source = "https://github.com/jefftriplett/django-cli-no-admin"
+
+[tool.bumpver]
+current_version = "2025.11.1"
+version_pattern = "YYYY.MM.INC1"
+commit_message = ":gem: Bump version to {new_version}"
+commit = false  # handled by justfile
+push = false  # handled by justfile
+tag = false  # handled by justfile
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
