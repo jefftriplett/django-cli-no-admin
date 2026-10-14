@@ -5,7 +5,7 @@
 django-cli-no-admin is a config-only project that creates a `django` command and nothing more. With this package, you can use the `django` command instead of `django-admin` to execute management commands in your Django project.
 
 > [!NOTE]
-> This package will eventually become unnecessary once [DEP 16](https://github.com/django/deps/blob/main/accepted/0016-name-main-command-django.rst) is fully implemented in Django core. DEP 16 proposes renaming the main Django command from `django-admin` to `django`. Track the implementation progress in [django/deps#100](https://github.com/django/deps/pull/100).
+> This package will eventually become unnecessary once [DEP 16](https://github.com/django/deps/blob/main/accepted/0016-name-main-command-django.rst) is fully implemented in Django core. DEP 16, accepted in [django/deps#100](https://github.com/django/deps/pull/100), renames the main Django command from `django-admin` to `django`. Track the implementation progress in [django/django#21260](https://github.com/django/django/pull/21260) ([ticket #36022](https://code.djangoproject.com/ticket/36022)).
 
 See the blog post: https://micro.webology.dev/2024/12/14/new-project-to.html 
 
